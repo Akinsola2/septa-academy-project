@@ -1,0 +1,51 @@
+const menuItems = [
+  {
+    id: 1,
+    name: "Jollof Rice & Grilled Chicken",
+    desc: "Smoky party-style jollof rice topped with charred, herb-marinated grilled chicken.",
+    price: "₦5,500",
+    img: "./images/jollof-rice.jpeg",
+    tag: null,
+  },
+  {
+    id: 2,
+    name: "Pepper Soup",
+    desc: "Deeply spiced goat-meat pepper soup with uziza leaves, a ChopHouse staple since day one.",
+    price: "₦4,200",
+    img: "./images/peppersoup.jpeg",
+    tag: null,
+  },
+  {
+    id: 3,
+    name: "Egusi Soup & Pounded Yam",
+    desc: "Ground melon-seed soup rich with spinach and smoked fish, paired with silky pounded yam.",
+    price: "₦4,800",
+    img: "./images.Poundedyam and egusi.jpeg",
+    tag: "Chef's Pick",
+  },
+  {
+    id: 4,
+    name: "Suya Platter",
+    desc: "Thinly sliced spiced beef suya, skewered and fire-grilled, served with raw onions, tomatoes, and yaji spice.",
+    price: "₦3,900",
+    img: "./images.suya.jpeg",
+    tag: null,
+  },
+  {
+    id: 5,
+    name: "Ofe Onugbu & Fufu",
+    desc: "Bitterleaf soup simmered with assorted meats and stockfish, served with soft, stretchy fufu.",
+    price: "₦4,500",
+    img: "./images/Ofe Onugbu & Fufu/.jpeg",
+    tag: null,
+  },
+
+  {
+    id: 6,
+    name: "Grilled Tilapia & Fried Plantain",
+    desc: "Whole tilapia marinated in house spice blend, charcoal-grilled and served with sweet fried plantain.",
+    price: "₦7,200",
+    img: "./images/Grilled Tilapia & Fried Plantain.jpeg",
+    tag: "New",
+  },
+];

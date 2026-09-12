@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Homepage.css">
+    <title>CHOPHOUSE RESTAURANT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" crossorigin="" href="https://whole-resize-11243796.figma.site/assets/index-o6BTZlyG.css"> -->
+</head>
+<body>
+    <header>
+       <div class="header">
+            <div class="logo">
+                <span class="chop">Chop<span class="house">House</span> </span>
+                <p class="navest">EST.  2018</p>
+            </div>
+
+            <nav class="naver">
+                <div>
+                    <ul class="navlist">
+                        <li><a href="#home" class="navlink">Home</a></li>
+                        <li><a href="#menu" class="navlink">Menu</a></li>
+                        <li><a href="#about" class="navlink">About</a></li>
+                        <li><a href="#contact" class="navlink">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a class="navbutton" href="#menu">Order Now</a>
+                </div>
+            </nav>
+
+            <button class="burger" aria-label="Toggle navigation" id="menu-show">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="#F5E6D0" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="7" x2="21" y2="7"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="17" x2="21" y2="17"></line></svg>
+            </button>
+
+            <button class="burger hide" aria-label="Toggle navigation" id="menu-hide">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+       </div>
+
+       <div class="mobile-menu hide" id="mobile-menu">
+            <a href="#home" class="navlink">Home</a>
+            <a href="#menu" class="navlink">Menu</a>
+            <a href="#about" class="navlink">About</a>
+            <a href="#contact" class="navlink">Contact</a>
+            <a href="#menu" class="navbutton navbutton-mobile">Order Now</a>
+        </div>
+    </header>
+    <!-- SETION1 -->
+
+
+
+    <section class="section1">
+        <div class="section1container">
+            <div class="section1a">
+                <div class="sectiondiscount">
+                    <span class="dot"></span>20% Off Today Only
+                </div>
+
+                <h1 class="food">Good Food.<br><span class="mood">Good Mood.</span></h1>
+                
+                <p class="food-description">West African flavours cooked with generosity and fire. From smoky jollof to fall-off-the-bone pepper soup — every plate at ChopHouse is a full experience.</p>
+                
+
+                <div class="links">
+                    <a href="#menu" class="menu">View Menu</a>
+                    <a href="#about" class="story">Our Story</a>
+                </div>
+                
+                <div class="section1b">
+                    <div>
+                        <p class="number">8+</p>
+                        <p class="number-ratings">Years serving</p>
+                    </div>
+                    
+                    <div>
+                        <p class="number">120+</p>
+                        <p class="number-ratings">Menu items</p>
+                    </div>
+                    <div>
+                        <p class="number">4.9★</p>
+                        <p class="number-ratings">Rating</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section1b">  
+                <div class="section1bimgcontainer">
+                    <div class="sub1">
+
+                    </div>
+                    
+                    <div class="sub2">
+
+                    </div>
+                    
+                    <img 
+                        alt="ChopHouse signature jollof rice with grilled chicken" 
+                        class="image" 
+                        src="https://images.unsplash.com/photo-1665332195309-9d75071138f0?w=520&amp;h=520&amp;fit=crop&amp;auto=format">
+                    
+                    <div class="left-badge">
+                        <p class="badge-text">₦5,500</p>
+                        
+                        <p class="from">from</p>
+                    </div>
+                    
+                    <div class="right-badge">FRESHLY MADE</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SETION2 -->
+
+    <section id="menu" class="menu-section">
+        <div class="menu-container">
+
+            <div class="menu-header">
+            <p class="menu-eyebrow">What We Serve</p>
+
+            <h2 class="menu-title">
+                Popular <span>Menu</span>
+            </h2>
+
+            <p class="menu-description">
+                Crowd favourites, made fresh daily. Every dish is a labour of love.
+            </p>
+            </div>
+
+            <div class="menu-grid">
+
+            <!-- Signature Jollof Rice -->
+            <div class="menu-card">
+                <div class="menu-image-wrapper">
+                <img
+                    src="https://images.unsplash.com/photo-1665332195309-9d75071138f0?w=400&h=300&fit=crop&auto=format"
+                    almenu-price-containert="Signature Jollof Rice"
+                />
+
+                <span class="menu-badge">Bestseller</span>
+                </div>
+
+                <div class="menu-content">
+                <h3>Signature Jollof Rice</h3>
+
+                <p>
+                    Smoky party-style jollof slow-cooked over firewood, served with
+                    grilled chicken and fresh coleslaw.
+                </p>
+
+                <div class="menu-footer">
+                    <div class="menu-price-container">
+                        <span class="menu-price">₦5,500</span>
+                        <span class="item-in-cart hide" data-count="0">× 0 in cart</span>
+
+                    </div>
+                    
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+
+            <!-- Pepper Soup -->
+            <div class="menu-card">
+                <div class="menu-image-wrapper">
+                <img
+                    src="https://images.unsplash.com/photo-1664992960082-0ea299a9c53e?w=400&h=300&fit=crop&auto=format"
+                    alt="Pepper Soup"
+                />
+                </div>
+
+                <div class="menu-content">
+                <h3>Pepper Soup</h3>
+
+                <p>
+                    Deeply spiced goat-meat pepper soup with uziza leaves, a ChopHouse
+                    staple since day one.
+                </p>
+
+                <div class="menu-footer">
+                    
+                     <div class="menu-price-container">
+                        <span class="menu-price">₦4,200</span>
+                        <span class="item-in-cart hide" data-count="0">× 0 in cart</span>
+
+                    </div>
+
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+
+            <!-- Egusi Soup -->
+            <div class="menu-card">
+                <div class="menu-image-wrapper">
+                <img
+                    src="https://images.unsplash.com/photo-1664993101841-036f189719b6?w=400&h=300&fit=crop&auto=format"
+                    alt="Egusi Soup & Pounded Yam"
+                />
+
+                <span class="menu-badge">Chef's Pick</span>
+                </div>
+
+                <div class="menu-content">
+                <h3>Egusi Soup &amp; Pounded Yam</h3>
+
+                <p>
+                    Richly blended melon seed soup with stockfish, beef, and spinach.
+                    Served with silky pounded yam.
+                </p>
+
+                <div class="menu-footer">
+                     <div class="menu-price-container">
+                        <span class="menu-price">₦6,800</span>
+                        <span class="item-in-cart hide" data-count="0">× 0 in cart</span>
+
+                    </div>
+
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+
+            <!-- Suya Platter -->
+            <div class="menu-card">
+                <div class="menu-image-wrapper">
+                <img
+                    src="https://images.unsplash.com/photo-1665333048952-a3ee97714c6b?w=400&h=300&fit=crop&auto=format"
+                    alt="Suya Platter"
+                />
+                </div>
+
+                <div class="menu-content">
+                <h3>Suya Platter</h3>
+
+                <p>
+                    Thinly sliced spiced beef suya, skewered and fire-grilled, served
+                    with raw onions, tomatoes, and yaji spice.
+                </p>
+
+                <div class="menu-footer">
+                     <div class="menu-price-container">
+                        <span class="menu-price">₦3,900</span>
+                        <span class="item-in-cart hide" data-count="0">× 0 in cart</span>
+
+                    </div>
+
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+
+            <!-- Ofe Onugbu -->
+            <div class="menu-card">
+                <div class="menu-image-wrapper">
+                <img
+                    src="https://images.unsplash.com/photo-1665556899022-9761f95769e5?w=400&h=300&fit=crop&auto=format"
+                    alt="Ofe Onugbu & Fufu"
+                />
+                </div>
+
+                <div class="menu-content">
+                <h3>Ofe Onugbu &amp; Fufu</h3>
+
+                <p>
+                    Bitter-leaf soup prepared with assorted meats and crayfish, served
+                    with freshly pounded cocoyam fufu.
+                </p>
+
+                <div class="menu-footer">
+                     <div class="menu-price-container">
+                        <span class="menu-price">₦5,900</span>
+                        <span class="item-in-cart hide" data-count="0">× 0 in cart</span>
+
+                    </div>
+
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+
+            <!-- Grilled Tilapia -->
+            <div class="menu-card">
+                <div class="menu-image-wrapper">
+                <img
+                    src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop&auto=format"
+                    alt="Grilled Tilapia & Fried Plantain"
+                />
+
+                <span class="menu-badge">New</span>
+                </div>
+
+                <div class="menu-content">
+                <h3>Grilled Tilapia &amp; Fried Plantain</h3>
+
+                <p>
+                    Whole tilapia marinated in house spice blend, charcoal-grilled and
+                    served with sweet fried plantain.
+                </p>
+
+                <div class="menu-footer">
+                     <div class="menu-price-container">
+                        <span class="menu-price">₦7,200</span>
+                        <span class="item-in-cart hide" data-count="0">× 0 in cart</span>
+
+                    </div>
+
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+     <!-- <section class="section2" id="menu">
+        <div class="section2header">
+            <h3 class="section2head">WHAT WE SERVE</h3>
+            <h1 class="popular">Popular <span class="menuhead">Menu</span> </h1>
+            <p>Crowd favourites, made fresh daily. Every dish is a labour of <br>love.</p>
+        </div>
+        <div class="menu-items">
+            <div class="menu-item">
+            <img src="./images/Ofe Onugbu & Fufu.jpeg" alt="" class="menu-img">
+            <div class="menu-grid">
+            <h1 class="menu-header">Signature Jollof Rice</h1>
+            <p class="menu-paragraph">Smoky party-style jollof slow-cooked over firewood, served with grilled chicken and fresh coleslaw.</p>
+            <div class="menu-price">
+            <div>
+                    <div>
+                        <p class="number">8+</p>
+                        <p class="number-ratings">YEARS SERVING</p>
+                    </div>
+                    <div>
+                        <p class="number">120+</p>
+                        <p class="number-ratings">MENU ITEMS</p>
+                    </div>
+                    <div>
+                        <p class="number">4.9★</p>
+                        <p class="number-ratings">RATING</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sections">
+                <div class="section">
+                    <div class="fresh">FRESHLY MADE</div>
+                    <img src="./images/jollof-rice.jpeg" alt="Signature Jollof Rice" class="section1img">
+                    <div class="price-sign">#5,500 <br> from</div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    
+
+     <!-- SECTION3 -->
+
+     <section id="about" class="about-section">
+        <div class="about-container">
+
+            <div class="about-image-area">
+            <div class="about-image-wrapper">
+                <img
+                src="https://images.unsplash.com/photo-1674216645383-afc4e42c227f?w=600&h=750&fit=crop&auto=format"
+                alt="ChopHouse dining area with warm wicker chairs"
+                />
+            </div>
+
+            <div class="about-stat">
+                <p class="about-stat-number">8+</p>
+                <p class="about-stat-text">
+                Years of Authentic Flavour
+                </p>
+            </div>
+            </div>
+
+            <div class="about-content">
+
+            <div>
+                <p class="about-eyebrow">Our Story</p>
+
+                <h2 class="about-title">
+                Born from a love of
+                <span>real food.</span>
+                </h2>
+            </div>
+
+            <p>
+                ChopHouse started in 2018 as a small kitchen in Lagos, founded by
+                Chef Adaeze Onyeka who grew up watching her grandmother cook over
+                open fire. What began as a weekends-only supper club quickly became
+                the neighbourhood's most-loved gathering spot.
+            </p>
+
+            <p>
+                Today we serve hundreds of guests daily, but our commitment has never
+                changed: every pot is seasoned with patience, every meal is cooked to
+                order, and every guest leaves full — in every sense of the word.
+            </p>
+
+            <div class="about-features">
+
+                <div class="about-feature">
+                <span>🔥</span>
+                <span>Firewood-cooked</span>
+                </div>
+
+                <div class="about-feature">
+                <span>🌿</span>
+                <span>Fresh ingredients</span>
+                </div>
+
+                <div class="about-feature">
+                <span>🤝</span>
+                <span>Family recipes</span>
+                </div>
+
+                <div class="about-feature">
+                <span>📍</span>
+                <span>Lagos, Nigeria</span>
+                </div>
+
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+      <!-- <section class="section3">
+        <div class="section3.1">
+            <img src="./images/restaurant.jpeg" alt="Restaurant" class="restaurant">
+        </div>
+        <div class="flavour">8+ <br> Years of Authentic <br> Flavour</div>
+        <div class="section3.2" >
+            <div >
+              <h3 class="our-story">OUR STORY</h3>
+            <h1 class="love">Born from a love of real food.</h1>
+            <p class="para">ChopHouse started in 2018 as a small kitchen in Lagos, founded by Chef Adaeze Onyeka who grew up watching her grandmother cook over open fire. What began as a weekends-only supper club quickly became the neighbourhood's most-loved gathering spot. </p>
+            <p class="para">Today we serve hundreds of guests daily, but our commitment has never changed: every pot is seasoned with patience, every meal is cooked to order, and every guest leaves full — in every sense of the word.</p>
+            </div>
+            <div class="icon-class">
+                 <div class="story-feature"><span class="icon">🔥</span> Firewood-cooked</div>
+                 <div class="story-feature"><span class="icon">🌿 </span> Fresh ingredients</div>
+                 <div class="story-feature"><span class="icon"> 🤝</span> Family recipes</div>
+                  <div class="story-feature"><span class="icon"> 📍</span> Lagos, Nigeria</div>
+            </div>
+        </div>
+      </section> -->
+
+      <!-- SECTION4 -->
+
+      <section id="contact" class="contact-section">
+        <div class="contact-container">
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+
+            <p class="contact-eyebrow">Reach Us</p>
+
+            <h2 class="contact-title">
+                Come say <span>hello.</span>
+            </h2>
+
+            <p class="contact-intro">
+                Have a question, a reservation, or just want to tell us what you loved?
+                Drop us a message and we'll get back to you within the hour — yes, really.
+            </p>
+
+            <div class="contact-details">
+
+                <!-- Address -->
+                <div class="contact-detail">
+                <div class="contact-icon">
+                    <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                </div>
+
+                <div>
+                    <p class="contact-label">Address</p>
+                    <p class="contact-value">
+                    14 Admiralty Way, Lekki Phase 1, Lagos
+                    </p>
+                </div>
+                </div>
+
+                <!-- Phone -->
+                <div class="contact-detail">
+                <div class="contact-icon">
+                    <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    >
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l.98-.98a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                </div>
+
+                <div>
+                    <p class="contact-label">Phone</p>
+                    <p class="contact-value">
+                    +234 801 234 5678
+                    </p>
+                </div>
+                </div>
+
+                <!-- Email -->
+                <div class="contact-detail">
+                <div class="contact-icon">
+                    <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    >
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                </div>
+
+                <div>
+                    <p class="contact-label">Email</p>
+                    <p class="contact-value">
+                    hello@chophouse.ng
+                    </p>
+                </div>
+                </div>
+
+            </div>
+            </div>
+
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+
+            <form class="contact-form">
+
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+
+                    <input
+                        id="full-name"
+                        type="text"
+                        placeholder="Emeka Okafor"
+                        oninput="handleNamechange('name')"
+                    />
+                    <p id="name-error" class="form-error hide">Your name is required.</p>
+                </div>
+
+                <div class="form-group">
+                <label for="email">Email Address</label>
+
+                    <input
+                        id="email"
+                        type="email"
+                        placeholder="emeka@example.com"
+                        oninput="handleNamechange('email')"
+                    />
+                    <p id="email-error" class="form-error hide">Your email is required.</p>
+                </div>
+
+                <div class="form-group">
+                <label for="message" id="message-label">Message</label>
+               
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Tell us what's on your mind..."
+                    oninput="handleNamechange('message')"
+                ></textarea>
+                 <p id="message-error" class="form-error hide">A message is required.</p>
+                </div>
+
+                <button type="submit" onclick="handleSubmitForm(event)" id="submit" class="submit-button">
+                Send Message
+                </button>
+                
+                
+
+            </form>
+
+            </div>
+
+            <div class="feedback-container hide">
+                    <div class="feedback-subcontainer" "text-center py-10">
+                        <div class="feedbak-message"class="w-16 h-16 rounded-full bg-[#E8A020]/20 text-[#E8A020] flex items-center justify-center mx-auto mb-4 text-3xl">✓</div>
+                        <h3 class="feedback-header"class="font-display font-bold text-[#1C1009] text-2xl mb-2">Message Sent!</h3>
+                        <p class="feedback-para"class="text-[#8C6D4F]">Thanks for reaching out. We'll get back to you shortly.</p>
+                        <button class="feedback-button" class="mt-6 text-[#C4511F] text-sm font-semibold hover:underline" onclick="handleResetForm()">Send another message</button>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- <section class="section4">
+        <div>
+            <h3 class="reach">Reach Us</h3>
+            <h1 class="say">Come say <span class="hello">hello.</span> </h1>
+            <p class="paragy">Have a question, a reservation, or just want to tell us what you loved? <br> Drop us a message and we'll get back to you within the hour — yes, really.</p>
+            <div class="contact">
+                <div class="contact-icon"><p>📍</p></div>
+                <div class="contact-info">
+                    <h4 class="address">ADDRESS</h4>
+                <P>14 Admiralty Way, Lekki Phase 1, Lagos</P>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contact-icon">📞</div>
+                <div class="contact-info" >
+                    <h4 class="address">PHONE</h4>
+                <P>+234 801 234 5678</P>
+                </div>
+                </div>
+                <div class="contact">
+                <div class="contact-icon">✉️</div>
+                <div class="contact-info">
+                    <h4 class="address">EMAIL</h4>
+                <P>hello@chophouse.ng</P>
+                </div>
+                </div>
+        </div>
+        <div class="form-container">
+        <div class="contact-form">
+            <label for="" class="contact-label">FULL NAME</label>
+            <input type="text" placeholder="Emeka Okafor" required>
+            <label for="" class="contact-label">EMAIL ADDRESS</label>
+            <input type="email" placeholder="emeka@example.com" required>
+            <label for="" class="contact-label">MESSAGE</label>
+            <textarea name="" id="" placeholder="Tell us what's on your mind..." required></textarea>
+        <button class="section4-btn">Send Message</button>
+        </div>
+        </section> -->
+    
+    <footer class="site-footer">
+
+        <div class="footer-main">
+            <div class="footer-grid">
+
+            <!-- Brand -->
+            <div class="footer-brand">
+                <span class="footer-logo">
+                Chop<span>House</span>
+                </span>
+
+                <p>
+                Authentic West African cuisine cooked with fire, love, and the finest
+                ingredients Lagos has to offer.
+                </p>
+            </div>
+
+
+            <!-- Navigate -->
+            <div class="footer-column">
+                <p class="footer-heading">Navigate</p>
+
+                <ul class="footer-links">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                </ul>
+            </div>
+
+
+            <!-- Opening Hours -->
+            <div class="footer-column">
+                <p class="footer-heading">Opening Hours</p>
+
+                <ul class="opening-hours">
+
+                <li>
+                    <span>Mon – Thu</span>
+                    <span>11:00 – 22:00</span>
+                </li>
+
+                <li>
+                    <span>Fri – Sat</span>
+                    <span>11:00 – 23:00</span>
+                </li>
+
+                <li>
+                    <span>Sunday</span>
+                    <span>12:00 – 21:00</span>
+                </li>
+
+                </ul>
+            </div>
+
+
+            <!-- Social Media -->
+            <div class="footer-column">
+                <p class="footer-heading">Follow Us</p>
+
+                <div class="social-links">
+
+                <!-- Instagram -->
+                <a href="#" aria-label="Instagram" class="social-link">
+                    <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    >
+                    <rect
+                        x="2"
+                        y="2"
+                        width="20"
+                        height="20"
+                        rx="5"
+                    ></rect>
+
+                    <path
+                        d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                    ></path>
+
+                    <line
+                        x1="17.5"
+                        y1="6.5"
+                        x2="17.51"
+                        y2="6.5"
+                    ></line>
+                    </svg>
+                </a>
+
+
+                <!-- Twitter / X -->
+                <a href="#" aria-label="Twitter / X" class="social-link">
+                    <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    >
+                    <path
+                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                    ></path>
+                    </svg>
+                </a>
+
+
+                <!-- Facebook -->
+                <a href="#" aria-label="Facebook" class="social-link">
+                    <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    >
+                    <path
+                        d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                    ></path>
+                    </svg>
+                </a>
+
+
+                <!-- TikTok -->
+                <a href="#" aria-label="TikTok" class="social-link">
+                    <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    >
+                    <path
+                        d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.28 6.28 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 0 0 0 6.34-6.34V8.56a8.18 8.18 0 0 0 4.79 1.52V6.65a4.85 4.85 0 0 1-1.03.04z"
+                    ></path>
+                    </svg>
+                </a>
+
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+
+            <p>
+                © 2026 ChopHouse. All rights reserved.
+            </p>
+
+            <p>
+                Made with fire in Lagos, Nigeria.
+            </p>
+
+            </div>
+        </div>
+
+    </footer>
+
+    
+         <!-- <footer class="footer" >
+            <section class="section5">
+            <div>
+                <h3 class="chops">Chop<span class="houses">House</span> </h3>
+                <p class="footer-para">Authentic West African cuisine cooked with fire, love, and the finest ingredients Lagos has to offer.</p>
+            </div>
+            <div>
+        <h3 class="navigate">NAVIGATE</h3>
+        <div>
+        <ul class="navlists">
+        <li><a href="#home" class="navlinks">Home</a></li>
+          <li><a href="#menu" class="navlinks">Menu</a></li>
+          <li><a href="#about" class="navlinks">About</a></li>
+          <li><a href="#contact" class="navlinks">Contact</a></li>
+        </ul>
+        </div>
+            </div>
+            <div>
+                <h3 class="navigate">OPENING HOURS</h3>
+                <div class="day-date">
+                    <h4 class="day">Mon - Thur</h4>
+                    <p class="time">11:00 - 22:00</p>
+                </div>
+                <div class="day-date">
+                    <h4 class="day">Fri - Sat</h4>
+                    <p class="time">11:00 - 23:00</p>
+                </div>
+                <div class="day-date">
+                    <h4 class="day">Sunday</h4>
+                    <p class="time">12:00 - 21:00</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="navigate">FOLLOW US</h3>
+                <div class="social-media">
+                <div class="media-icons">📷</div>
+                <div class="media-icons">𝕏</div>
+                <div class="media-icons">f</div>
+                <div class="media-icons">♪</div>
+                </div>
+            </div>
+            </section>
+              <div class="footer-bottom">
+            <div>© 2026 ChopHouse. All rights reserved.</div>
+            <div>Made with fire in Lagos, Nigeria.</div>
+         </div>
+        </footer> -->
+  <script src="./Homepage.js" ></script>       
+</body>
+
+</html>
