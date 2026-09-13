@@ -188,7 +188,7 @@ header{
     text-decoration: none;
     color: #f5e6d0;
     transition-duration: .2s;
-    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
     transition-timing-function: var(var(--default-transition-timing-function));
     font-weight: var(--font-weight-medium);
     line-height: var(var(--text-sm--line-height));
@@ -355,7 +355,6 @@ header{
 
 }
 .story:hover{
-    /* transform: scale(1.05); */
     border: 1px solid  #8C6D4F;
 }
 
@@ -382,11 +381,7 @@ header{
     gap: 40px;
 }
 
-@media (width >= 48rem) {
-    /* .section1b {
-        justify-content: flex-end;
-    } */
-}
+
 
 .section1bimgcontainer {
     position: relative;
@@ -619,7 +614,6 @@ header{
   font-size: 1.25rem;
   line-height: 1.375;
   font-weight: 600;
-
   margin: 0;
 }
 
@@ -627,14 +621,13 @@ header{
   color: #8c6d4f;
   font-size: 0.875rem;
   line-height: 1.625;
-
   margin: 0;
   flex: 1;
 }
 
 
 /* =========================
-   FOOTER
+    MENU-FOOTER
 ========================= */
 
 .menu-footer {
@@ -661,23 +654,17 @@ header{
 .add-to-cart {
   color: #fff;
   background-color: #c4511f;
-
   border: none;
   border-radius: 0.5rem;
-
   font-size: 0.875rem;
   font-weight: 600;
-
   padding: 0.5rem 1rem;
-
   cursor: pointer;
-
   transition:
     background-color 0.2s ease,
     transform 0.2s ease;
 }
 .added {
-     /* padding: 0.2rem 0.75rem; */
     background-color: #e8a020;
     color: #1C1009;
     scale: 0.95;
@@ -703,6 +690,14 @@ header{
 @media (min-width: 640px) {
   .menu-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .added{
+  padding: 0.5rem 0.5rem;
+ 
+  }
+  .add-to-cart{
+  padding: 0.5rem 0.5rem;
+
   }
 }
 
@@ -917,11 +912,9 @@ header{
   max-width: 72rem;
   margin: 0 auto;
   padding: 0 1.5rem;
-
   display: grid;
   grid-template-columns: 1fr;
   gap: 4rem;
-
   align-items: start;
 }
 
@@ -936,24 +929,19 @@ header{
 
 .contact-eyebrow {
   color: #c4511f;
-
   font-size: 0.75rem;
   font-weight: 600;
-
   letter-spacing: 0.2em;
   text-transform: uppercase;
-
   margin: 0 0 0.75rem;
 }
 
 .contact-title {
   color: #1c1009;
-
   font-family: var(--font-display);
   font-size: 2.25rem;
   line-height: 1.25;
   font-weight: 900;
-
   margin: 0 0 1.5rem;
 }
 
@@ -964,9 +952,7 @@ header{
 
 .contact-intro {
   color: #8c6d4f;
-
   line-height: 1.625;
-
   margin: 0 0 2.5rem;
 }
 
