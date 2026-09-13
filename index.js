@@ -12,10 +12,10 @@ const submit = document.querySelector("#submit");
 
 const wrapper = document.querySelector(".contact-form-wrapper");
 const feedbackContainer = document.querySelector(".feedback-container");
+// const menuLink = document.querySelector("#menuLink");
+
 
 const addToCartButtons = document.querySelectorAll(".add-to-cart");
-
-console.log(addToCartButtons);
 
 emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -23,13 +23,18 @@ burgerBtn.addEventListener('click', () =>{
     mobileMenu.classList.remove("hide");
     burgerBtn.classList.add("hide");
     menuHide.classList.remove("hide");
-})
+});
 
 menuHide.addEventListener('click', () =>{
     mobileMenu.classList.add("hide");
     burgerBtn.classList.remove("hide");
     menuHide.classList.add("hide");
 });
+
+// menuLink.addEventListener("click", ()=>{
+//     mobile-menu.classList.remove("active");
+// });
+
 
 addToCartButtons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -66,28 +71,31 @@ const handleSubmitForm = (e) => {
         email.classList.add("input-red");
     }
 
-    if(email.value !== "" && !emailRegex.test(email.value)) {
-        emailError.textContent = "Please enter a valid email address.";
-        emailError.classList.remove("hide");
-        email.classList.add("input-red");
-    }
-
     if (message.value === "") {
       messageError.classList.remove("hide");
       message.classList.add("input-red");
     }
 
-    if(message.value !== "" && message.value.length < 10) {
+    else if(email.value !== "" && !emailRegex.test(email.value)) {
+        emailError.textContent = "Please enter a valid email address.";
+        emailError.classList.remove("hide");
+        email.classList.add("input-red");
+    }
+
+
+    else if(message.value !== "" && message.value.length < 10) {
         messageError.textContent = "Message must be at least 10 characters long.";
         messageError.classList.remove("hide");
         message.classList.add("input-red");
     }
 
-    wrapper.classList.add("hide");
-    feedbackContainer.classList.remove("hide");
-    email.value = "";
-    fullName.value = "";
-    message.value = "";
+    else{
+        wrapper.classList.add("hide");
+        feedbackContainer.classList.remove("hide");
+        email.value = "";
+        fullName.value = "";
+        message.value = "";
+    }
 }
 
 const handleResetForm = () => {

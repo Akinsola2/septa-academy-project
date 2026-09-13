@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" crossorigin="" href="https://whole-resize-11243796.figma.site/assets/index-o6BTZlyG.css"> -->
+    
 </head>
 <body>
     <header>
+        <!-- HEADING -->
        <div class="header">
             <div class="logo">
                 <span class="chop">Chop<span class="house">House</span> </span>
@@ -33,7 +34,7 @@
                 </div>
             </nav>
 
-            <button class="burger" aria-label="Toggle navigation" id="menu-show">
+            <button class="burger" id="menu-show">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="#F5E6D0" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="7" x2="21" y2="7"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="17" x2="21" y2="17"></line></svg>
             </button>
 
@@ -43,17 +44,16 @@
        </div>
 
        <div class="mobile-menu hide" id="mobile-menu">
-            <a href="#home" class="navlink">Home</a>
-            <a href="#menu" class="navlink">Menu</a>
+            <a href="#home" id="" class="navlink">Home</a>
+            <a href="#menu"  class="navlink">Menu</a>
             <a href="#about" class="navlink">About</a>
             <a href="#contact" class="navlink">Contact</a>
             <a href="#menu" class="navbutton navbutton-mobile">Order Now</a>
         </div>
     </header>
+    
+    
     <!-- SETION1 -->
-
-
-
     <section class="section1">
         <div class="section1container">
             <div class="section1a">
@@ -319,46 +319,6 @@
         </div>
     </section>
 
-     <!-- <section class="section2" id="menu">
-        <div class="section2header">
-            <h3 class="section2head">WHAT WE SERVE</h3>
-            <h1 class="popular">Popular <span class="menuhead">Menu</span> </h1>
-            <p>Crowd favourites, made fresh daily. Every dish is a labour of <br>love.</p>
-        </div>
-        <div class="menu-items">
-            <div class="menu-item">
-            <img src="./images/Ofe Onugbu & Fufu.jpeg" alt="" class="menu-img">
-            <div class="menu-grid">
-            <h1 class="menu-header">Signature Jollof Rice</h1>
-            <p class="menu-paragraph">Smoky party-style jollof slow-cooked over firewood, served with grilled chicken and fresh coleslaw.</p>
-            <div class="menu-price">
-            <div>
-                    <div>
-                        <p class="number">8+</p>
-                        <p class="number-ratings">YEARS SERVING</p>
-                    </div>
-                    <div>
-                        <p class="number">120+</p>
-                        <p class="number-ratings">MENU ITEMS</p>
-                    </div>
-                    <div>
-                        <p class="number">4.9★</p>
-                        <p class="number-ratings">RATING</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="sections">
-                <div class="section">
-                    <div class="fresh">FRESHLY MADE</div>
-                    <img src="./images/jollof-rice.jpeg" alt="Signature Jollof Rice" class="section1img">
-                    <div class="price-sign">#5,500 <br> from</div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    
 
      <!-- SECTION3 -->
 
@@ -433,27 +393,7 @@
         </div>
     </section>
 
-      <!-- <section class="section3">
-        <div class="section3.1">
-            <img src="./images/restaurant.jpeg" alt="Restaurant" class="restaurant">
-        </div>
-        <div class="flavour">8+ <br> Years of Authentic <br> Flavour</div>
-        <div class="section3.2" >
-            <div >
-              <h3 class="our-story">OUR STORY</h3>
-            <h1 class="love">Born from a love of real food.</h1>
-            <p class="para">ChopHouse started in 2018 as a small kitchen in Lagos, founded by Chef Adaeze Onyeka who grew up watching her grandmother cook over open fire. What began as a weekends-only supper club quickly became the neighbourhood's most-loved gathering spot. </p>
-            <p class="para">Today we serve hundreds of guests daily, but our commitment has never changed: every pot is seasoned with patience, every meal is cooked to order, and every guest leaves full — in every sense of the word.</p>
-            </div>
-            <div class="icon-class">
-                 <div class="story-feature"><span class="icon">🔥</span> Firewood-cooked</div>
-                 <div class="story-feature"><span class="icon">🌿 </span> Fresh ingredients</div>
-                 <div class="story-feature"><span class="icon"> 🤝</span> Family recipes</div>
-                  <div class="story-feature"><span class="icon"> 📍</span> Lagos, Nigeria</div>
-            </div>
-        </div>
-      </section> -->
-
+      
       <!-- SECTION4 -->
 
       <section id="contact" class="contact-section">
@@ -595,66 +535,21 @@
                 <button type="submit" onclick="handleSubmitForm(event)" id="submit" class="submit-button">
                 Send Message
                 </button>
-                
-                
-
             </form>
-
             </div>
 
             <div class="feedback-container hide">
-                    <div class="feedback-subcontainer" "text-center py-10">
-                        <div class="feedbak-message"class="w-16 h-16 rounded-full bg-[#E8A020]/20 text-[#E8A020] flex items-center justify-center mx-auto mb-4 text-3xl">✓</div>
+                    <div class="feedback-subcontainer">
+                        <div class="feedback-message">✓</div>
                         <h3 class="feedback-header"class="font-display font-bold text-[#1C1009] text-2xl mb-2">Message Sent!</h3>
                         <p class="feedback-para"class="text-[#8C6D4F]">Thanks for reaching out. We'll get back to you shortly.</p>
-                        <button class="feedback-button" class="mt-6 text-[#C4511F] text-sm font-semibold hover:underline" onclick="handleResetForm()">Send another message</button>
+                        <button class="feedback-button" class="" onclick="handleResetForm()">Send another message</button>
                     </div>
                 </div>
 
         </div>
     </section>
-
-
-
-    <!-- <section class="section4">
-        <div>
-            <h3 class="reach">Reach Us</h3>
-            <h1 class="say">Come say <span class="hello">hello.</span> </h1>
-            <p class="paragy">Have a question, a reservation, or just want to tell us what you loved? <br> Drop us a message and we'll get back to you within the hour — yes, really.</p>
-            <div class="contact">
-                <div class="contact-icon"><p>📍</p></div>
-                <div class="contact-info">
-                    <h4 class="address">ADDRESS</h4>
-                <P>14 Admiralty Way, Lekki Phase 1, Lagos</P>
-                </div>
-            </div>
-            <div class="contact">
-                <div class="contact-icon">📞</div>
-                <div class="contact-info" >
-                    <h4 class="address">PHONE</h4>
-                <P>+234 801 234 5678</P>
-                </div>
-                </div>
-                <div class="contact">
-                <div class="contact-icon">✉️</div>
-                <div class="contact-info">
-                    <h4 class="address">EMAIL</h4>
-                <P>hello@chophouse.ng</P>
-                </div>
-                </div>
-        </div>
-        <div class="form-container">
-        <div class="contact-form">
-            <label for="" class="contact-label">FULL NAME</label>
-            <input type="text" placeholder="Emeka Okafor" required>
-            <label for="" class="contact-label">EMAIL ADDRESS</label>
-            <input type="email" placeholder="emeka@example.com" required>
-            <label for="" class="contact-label">MESSAGE</label>
-            <textarea name="" id="" placeholder="Tell us what's on your mind..." required></textarea>
-        <button class="section4-btn">Send Message</button>
-        </div>
-        </section> -->
-    
+ <!-- FOOTER -->
     <footer class="site-footer">
 
         <div class="footer-main">
@@ -829,55 +724,6 @@
         </div>
 
     </footer>
-
-    
-         <!-- <footer class="footer" >
-            <section class="section5">
-            <div>
-                <h3 class="chops">Chop<span class="houses">House</span> </h3>
-                <p class="footer-para">Authentic West African cuisine cooked with fire, love, and the finest ingredients Lagos has to offer.</p>
-            </div>
-            <div>
-        <h3 class="navigate">NAVIGATE</h3>
-        <div>
-        <ul class="navlists">
-        <li><a href="#home" class="navlinks">Home</a></li>
-          <li><a href="#menu" class="navlinks">Menu</a></li>
-          <li><a href="#about" class="navlinks">About</a></li>
-          <li><a href="#contact" class="navlinks">Contact</a></li>
-        </ul>
-        </div>
-            </div>
-            <div>
-                <h3 class="navigate">OPENING HOURS</h3>
-                <div class="day-date">
-                    <h4 class="day">Mon - Thur</h4>
-                    <p class="time">11:00 - 22:00</p>
-                </div>
-                <div class="day-date">
-                    <h4 class="day">Fri - Sat</h4>
-                    <p class="time">11:00 - 23:00</p>
-                </div>
-                <div class="day-date">
-                    <h4 class="day">Sunday</h4>
-                    <p class="time">12:00 - 21:00</p>
-                </div>
-            </div>
-            <div>
-                <h3 class="navigate">FOLLOW US</h3>
-                <div class="social-media">
-                <div class="media-icons">📷</div>
-                <div class="media-icons">𝕏</div>
-                <div class="media-icons">f</div>
-                <div class="media-icons">♪</div>
-                </div>
-            </div>
-            </section>
-              <div class="footer-bottom">
-            <div>© 2026 ChopHouse. All rights reserved.</div>
-            <div>Made with fire in Lagos, Nigeria.</div>
-         </div>
-        </footer> -->
   <script src="./index.js" ></script>       
 </body>
 

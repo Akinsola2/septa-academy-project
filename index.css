@@ -979,12 +979,14 @@ header{
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  
 }
 
 .contact-detail {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
+  align-items: center;
 }
 
 
@@ -995,15 +997,11 @@ header{
 .contact-icon {
   width: 2.5rem;
   height: 2.5rem;
-
   flex-shrink: 0;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   border-radius: 0.75rem;
-
   background-color: rgba(196, 81, 31, 0.1);
   color: #c4511f;
 }
@@ -1015,13 +1013,10 @@ header{
 
 .contact-label {
   color: #8c6d4f;
-
   font-size: 0.75rem;
   font-weight: 600;
-
   letter-spacing: 0.05em;
   text-transform: uppercase;
-
   margin: 0;
 }
 
@@ -1180,20 +1175,21 @@ header{
 }
 .feedback-subcontainer{
     text-align: center;
-    padding: 40px 0px;
+    padding: 40px 0;
 }
 .feedback-message{
-    height: ;
-    width: ;
+    height: 64px ;
+    width: 64px;
     border-radius: 30px;
-    background-color:#E8A020/20 ;
+    background-color:rgb(232, 160, 32, 0.2);
     color: #E8A020;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto;
     font-size: 1.875rem;
     margin-bottom: 16px;
+    border-radius: 50%
 }
 .feedback-header{
     margin-bottom: 8px;
@@ -1211,6 +1207,7 @@ header{
     margin-top: 24px;
     color: #C4511F ;
     font-weight: var(--font-weight-semibold);
+    background-color: transparent;
 }
 .feedback-button:hover{
     text-decoration: underline;
