@@ -381,13 +381,10 @@ header{
     gap: 40px;
 }
 
-
-
 .section1bimgcontainer {
     position: relative;
     width: calc(var(--spacing) * 80);
-    height: calc(var(--spacing) * 80);
-    
+    height: calc(var(--spacing) * 80); 
 }
 
 @media (width >= 64rem) {
@@ -691,12 +688,12 @@ header{
   .menu-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .added{
+  /* .added{
   padding: 0.5rem 0.5rem;
  
   }
   .add-to-cart{
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem; */
 
   }
 }

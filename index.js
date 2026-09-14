@@ -12,7 +12,6 @@ const submit = document.querySelector("#submit");
 
 const wrapper = document.querySelector(".contact-form-wrapper");
 const feedbackContainer = document.querySelector(".feedback-container");
-// const menuLink = document.querySelector("#menuLink");
 
 
 const addToCartButtons = document.querySelectorAll(".add-to-cart");
@@ -31,10 +30,7 @@ menuHide.addEventListener('click', () =>{
     menuHide.classList.add("hide");
 });
 
-// menuLink.addEventListener("click", ()=>{
-//     mobile-menu.classList.remove("active");
-// });
-
+ 
 
 addToCartButtons.forEach((button) => {
   button.addEventListener("click", () => {
