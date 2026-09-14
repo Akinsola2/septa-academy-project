@@ -688,12 +688,12 @@ header{
   .menu-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  /* .added{
+  .added{
   padding: 0.5rem 0.5rem;
  
   }
   .add-to-cart{
-  padding: 0.5rem 0.5rem; */
+  padding: 0.5rem 0.5rem;
 
   }
 }
