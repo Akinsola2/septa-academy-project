@@ -9,12 +9,17 @@ const fullNameError = document.querySelector("#name-error");
 const emailError = document.querySelector("#email-error");
 const messageError = document.querySelector("#message-error");
 const submit = document.querySelector("#submit");
-
 const wrapper = document.querySelector(".contact-form-wrapper");
 const feedbackContainer = document.querySelector(".feedback-container");
-
-
 const addToCartButtons = document.querySelectorAll(".add-to-cart");
+
+
+const handleResetMenu = () =>{
+    mobileMenu.classList.add("hide");
+    burgerBtn.classList.remove("hide");
+    menuHide.classList.add("hide");
+    
+}
 
 emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 

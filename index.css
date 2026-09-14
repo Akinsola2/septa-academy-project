@@ -533,20 +533,17 @@ header{
   border: 1px solid #e0cdb8;
   border-radius: 1rem;
   overflow: hidden;
-
   display: flex;
   flex-direction: column;
-
   transition:
-    box-shadow 0.3s ease,
-    transform 0.3s ease;
+  box-shadow 0.3s ease,
+  transform 0.3s ease;
 }
 
 .menu-card:hover {
   box-shadow:
     0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 8px 10px -6px rgba(0, 0, 0, 0.1);
-
   transform: translateY(-0.25rem);
 }
 
@@ -578,16 +575,12 @@ header{
   position: absolute;
   top: 0.75rem;
   left: 0.75rem;
-
   background-color: #1c1009;
   color: #e8a020;
-
   font-size: 0.75rem;
   font-weight: 700;
-
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
-
   letter-spacing: 0.025em;
 }
 
@@ -600,7 +593,6 @@ header{
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-
   padding: 1.25rem;
   flex: 1;
 }
@@ -1538,9 +1530,6 @@ header{
 }
 .menu-img{
     width: 100%;
-}
-.menu-grid{
-    padding: 0px 15px
 }
 .menu-header{
     padding-top: 10px;
